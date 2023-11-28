@@ -1,4 +1,28 @@
+
 .container{
     background-color: blueviolet;
-    border: 40px;
 }
+.icon{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: rgb(211, 211, 211);
+}
+
+.avatar1{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}
+.avatar2{
+   border-radius: 20px;
+   height: 20px; 
+}
+.icon2{
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    background-color: rgb(197, 132, 10); 
+}
+
+
