@@ -1,4 +1,6 @@
-
+.titolo{
+   background-color: blueviolet; 
+}
 .container{
     background-color: blueviolet;
 }
@@ -19,10 +21,11 @@
    height: 20px; 
 }
 .icon2{
+    
     height: 15px;
     width: 15px;
-    border-radius: 10px;
-    background-color: rgb(197, 132, 10); 
+    border-radius: 40px;
+    background-color: rgb(198, 186, 164); 
 }
 
 
