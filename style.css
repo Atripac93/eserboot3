@@ -1,0 +1,13 @@
+.movie_wrap{
+    margin: 200px;
+    transition: 0.2s;
+    transition-delay: 0.2s;
+
+}
+.movie_wrap:hover{
+    transform: scale(1.5);
+}
+img{
+    height: 200px;
+    border-radius: 20px 20px 20px 20px;
+}
