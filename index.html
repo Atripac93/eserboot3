@@ -72,32 +72,44 @@
       <ion-icon class="icon" name="notifications-outline"></ion-icon>
       <img class="avatar1" src="avatar-1.jpg" alt="avatar1">
     </nav>
-    <div class="titolo">
-      <h1 class="text-white opacity-75">WELCOME WEB STUDENT!</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias soluta iusto saepe a, </p>
-
-    <p class="d-inline-flex gap-1">
-      <a class= "btn bg-success text-white fw-bold" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-        Browse Course
-      </a>
-      <button class="btn bg-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-        Are you instructor?
-      </button>
-    </p>
- 
-    <img src="hero-img.png" alt="hero">
     
-    </div>
+      <div class="container row justify-content-center ">
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-8">
+              <h1 class="welcome text-white opacity-75">WELCOME WEB STUDENT!</h1>
+              <p class="fw-bold text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Alias soluta iusto saepe
+                
+    
+              <p class="d-inline-flex gap-1 mt-3">
+                <a class="btn bg-success text-white fw-bold" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Browse Course
+                </a>
+                <button class="btn bg-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  Are you instructor?
+                </button>
+              </p>
+            </div>
+            <div class="col-md-8">
+              <img src="hero-img.png" alt="hero" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  
     <!--seconda navbar-->
     
-    <ul class="nav justify-content-around align-items-center bg-body-secondary">
+    <ul class=" nav col-12 justify-content-around align-items-center bg-body-secondary">
    
       <li class="nav-item">
         <div>
         <div class="nav-link active fw-bold text-black" aria-current="page">
         <ion-icon class="icon2" name="videocam"></ion-icon>
         30.000 online course</div>
-        <p class="text-body-tertiary">Enjoy a variety of fresh topic</p>
+        <p class="enjoy text-body-tertiary">Enjoy a variety of fresh topic</p>
   </div>
       </li>
     </div>
@@ -106,176 +118,445 @@
       <div class="nav-link active fw-bold text-black" aria-current="page">
       <ion-icon class="icon2" name="videocam"></ion-icon>
       30.000 online course</div>
-      <p class="text-body-tertiary">Enjoy a variety of fresh topic</p>
+      <p class="enjoy text-body-tertiary">Enjoy a variety of fresh topic</p>
       </li>
       <li class="nav-item">
         <div>
         <div class="nav-link active fw-bold text-black" aria-current="page">
         <ion-icon class="icon2" name="videocam"></ion-icon>
         30.000 online course</div>
-        <p class="text-body-tertiary">Enjoy a variety of fresh topic</p>
+        <p class="enjoy text-body-tertiary">Enjoy a variety of fresh topic</p>
      
     </ul>
     
     <!--container2-->
+    <h5 class="titoli">Recommended to you</h5>
     
-    <div class="row justify-content-around col-12">
-    <h5 class="row">Recommented to you</h5>
-    
-    <div class="card" style="width: 18rem;">
-      <img src="course-angular.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Grapifhc</h5>
-        <p class="card-text">2h 40m Advences</p>
-
-        <ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon>
-        2,5
+    <div class="row justify-content-around col-12 md-6">
+      <div class="card" style="width: 18rem;">
+        <img src="course-graphql.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">GraphQL: Introduction to<br>GraphQL for Beginners</h5>
+          <div class="row">
+            <div class="col-8">
+              <p class="card-text">
+                <ion-icon name="time" class="md-2"></ion-icon>
+                <span class="ora">2h 40m</span>
+              </p>
+            </div>
+            <div class="contenitore col-4 text-right">
+              <ion-icon class="classifica position-relative" name="stats"></ion-icon>
+              <p class="advance row justify-content-between align-items-center">Advance</p>
+            
+            </div class="row">
+            <div class="stelle col-8"><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon>
+            <p class="numero col-12 justify-content-around">3.0</p>
+            <p class="parentesi text-body-tertiary">(1,50)</p>
+            </div>
+            <div class="row">
+              <p class="fw-bold">$500</p>
+              <p class="secondon text-body-tertiary">$600</p>
+            </div>
+          </div>
       </div>
-      <p class="fw-bold">$500</p> 
-      <p>$600</p>
-      <div>
-      <ul class="list-group list-group-flush row justify-content-around">
-        
-          
+      <ul class="list-group list-group-flush">
         <li class="list-group-item">
           <img class="avatar2" src="avatar-2.jpg" alt="">
           Simons Brookly
-          <ion-icon name="bookmark"></ion-icon>
-        </li> 
-        
-        
-        
-      </ul>
-    </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="course-css.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">A third item</li>
+          <ion-icon class="book" name="bookmark"></ion-icon>
+        </li>
       </ul>
     </div>
     <div class="card" style="width: 18rem;">
       <img src="course-graphql.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 class="card-title">GraphQL: Introduction to<br>GraphQL for Beginners</h5>
+        <div class="row">
+          <div class="col-8">
+            <p class="card-text">
+              <ion-icon name="time" class="md-2"></ion-icon>
+              <span class="ora">2h 40m</span>
+            </p>
+          </div>
+          <div class="contenitore col-4 text-right">
+            <ion-icon class="classifica position-relative" name="stats"></ion-icon>
+            <p class="advance row justify-content-between align-items-center">Advance</p>
+          
+          </div class="row">
+          <div class="stelle col-8"><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon>
+          <p class="numero col-12 justify-content-around">3.0</p>
+          <p class="parentesi text-body-tertiary">(1,50)</p>
+          </div>
+          <div class="row">
+            <p class="fw-bold">$500</p>
+            <p class="secondon text-body-tertiary">$600</p>
+          </div>
+        </div>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        <img class="avatar2" src="avatar-2.jpg" alt="">
+        Simons Brookly
+        <ion-icon class="book" name="bookmark"></ion-icon>
+      </li>
+    </ul>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="course-graphql.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">GraphQL: Introduction to<br>GraphQL for Beginners</h5>
+      <div class="row">
+        <div class="col-8">
+          <p class="card-text">
+            <ion-icon name="time" class="md-2"></ion-icon>
+            <span class="ora">2h 40m</span>
+          </p>
+        </div>
+        <div class="contenitore col-4 text-right">
+          <ion-icon class="classifica position-relative" name="stats"></ion-icon>
+          <p class="advance row justify-content-between align-items-center">Advance</p>
+        
+        </div class="row">
+        <div class="stelle col-8"><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon>
+        <p class="numero col-12 justify-content-around">3.0</p>
+        <p class="parentesi text-body-tertiary">(1,50)</p>
+        </div>
+        <div class="row">
+          <p class="fw-bold">$500</p>
+          <p class="secondon text-body-tertiary">$600</p>
+        </div>
+      </div>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+      <img class="avatar2" src="avatar-2.jpg" alt="">
+      Simons Brookly
+      <ion-icon class="book" name="bookmark"></ion-icon>
+    </li>
+  </ul>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="course-graphql.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">GraphQL: Introduction to<br>GraphQL for Beginners</h5>
+    <div class="row">
+      <div class="col-8">
+        <p class="card-text">
+          <ion-icon name="time" class="md-2"></ion-icon>
+          <span class="ora">2h 40m</span>
+        </p>
+      </div>
+      <div class="contenitore col-4 text-right">
+        <ion-icon class="classifica position-relative" name="stats"></ion-icon>
+        <p class="advance row justify-content-between align-items-center">Advance</p>
+      
+      </div class="row">
+      <div class="stelle col-8"><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon>
+      <p class="numero col-12 justify-content-around">3.0</p>
+      <p class="parentesi text-body-tertiary">(1,50)</p>
+      </div>
+      <div class="row">
+        <p class="fw-bold">$500</p>
+        <p class="secondon text-body-tertiary">$600</p>
+      </div>
+    </div>
+</div>
+<ul class="list-group list-group-flush">
+  <li class="list-group-item">
+    <img class="avatar2" src="avatar-2.jpg" alt="">
+    Simons Brookly
+    <ion-icon class="book" name="bookmark"></ion-icon>
+  </li>
+</ul>
+</div>
+    
+    </div>
+    
+  
+  <!--container3-->
+  <h5 class="titoli">Most Popular</h5>
+    <div class="row justify-content-around col-12">
+      
+      <div class="card" style="width: 18rem;">
+        <img src="course-graphql.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">GraphQL: Introduction to<br>GraphQL for Beginners</h5>
+          <div class="row">
+            <div class="col-8">
+              <p class="card-text">
+                <ion-icon name="time" class="md-2"></ion-icon>
+                <span class="ora">2h 40m</span>
+              </p>
+            </div>
+            <div class="contenitore col-4 text-right">
+              <ion-icon class="classifica position-relative" name="stats"></ion-icon>
+              <p class="advance row justify-content-between align-items-center">Advance</p>
+            
+            </div class="row">
+            <div class="stelle col-8"><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon>
+            <p class="numero col-12 justify-content-around">3.0</p>
+            <p class="parentesi text-body-tertiary">(1,50)</p>
+            </div>
+            <div class="row">
+              <p class="fw-bold">$500</p>
+              <p class="secondon text-body-tertiary">$600</p>
+            </div>
+          </div>
       </div>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">
           <img class="avatar2" src="avatar-2.jpg" alt="">
           Simons Brookly
-          <ion-icon name="bookmark"></ion-icon>
+          <ion-icon class="book" name="bookmark"></ion-icon>
         </li>
       </ul>
     </div>
     <div class="card" style="width: 18rem;">
-      <img src="course-gatsby.jpg" class="card-img-top" alt="...">
+      <img src="course-graphql.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">A third item</li>
-      </ul>
+        <h5 class="card-title">GraphQL: Introduction to<br>GraphQL for Beginners</h5>
+        <div class="row">
+          <div class="col-8">
+            <p class="card-text">
+              <ion-icon name="time" class="md-2"></ion-icon>
+              <span class="ora">2h 40m</span>
+            </p>
+          </div>
+          <div class="contenitore col-4 text-right">
+            <ion-icon class="classifica position-relative" name="stats"></ion-icon>
+            <p class="advance row justify-content-between align-items-center">Advance</p>
+          
+          </div class="row">
+          <div class="stelle col-8"><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon>
+          <p class="numero col-12 justify-content-around">3.0</p>
+          <p class="parentesi text-body-tertiary">(1,50)</p>
+          </div>
+          <div class="row">
+            <p class="fw-bold">$500</p>
+            <p class="secondon text-body-tertiary">$600</p>
+          </div>
+        </div>
     </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        <img class="avatar2" src="avatar-2.jpg" alt="">
+        Simons Brookly
+        <ion-icon class="book" name="bookmark"></ion-icon>
+      </li>
+    </ul>
   </div>
-  
-  <!--container3-->
-
-    <div class="row justify-content-around col-12">
-      <h5>Most Popular</h5>
-      <div class="card" style="width: 18rem;">
-        <img src="course-html.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  <div class="card" style="width: 18rem;">
+    <img src="course-graphql.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">GraphQL: Introduction to<br>GraphQL for Beginners</h5>
+      <div class="row">
+        <div class="col-8">
+          <p class="card-text">
+            <ion-icon name="time" class="md-2"></ion-icon>
+            <span class="ora">2h 40m</span>
+          </p>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">A third item</li>
-        </ul>
+        <div class="contenitore col-4 text-right">
+          <ion-icon class="classifica position-relative" name="stats"></ion-icon>
+          <p class="advance row justify-content-between align-items-center">Advance</p>
+        
+        </div class="row">
+        <div class="stelle col-8"><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon>
+        <p class="numero col-12 justify-content-around">3.0</p>
+        <p class="parentesi text-body-tertiary">(1,50)</p>
+        </div>
+        <div class="row">
+          <p class="fw-bold">$500</p>
+          <p class="secondon text-body-tertiary">$600</p>
+        </div>
+      </div>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+      <img class="avatar2" src="avatar-2.jpg" alt="">
+      Simons Brookly
+      <ion-icon class="book" name="bookmark"></ion-icon>
+    </li>
+  </ul>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="course-graphql.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">GraphQL: Introduction to<br>GraphQL for Beginners</h5>
+    <div class="row">
+      <div class="col-8">
+        <p class="card-text">
+          <ion-icon name="time" class="md-2"></ion-icon>
+          <span class="ora">2h 40m</span>
+        </p>
+      </div>
+      <div class="contenitore col-4 text-right">
+        <ion-icon class="classifica position-relative" name="stats"></ion-icon>
+        <p class="advance row justify-content-between align-items-center">Advance</p>
       
+      </div class="row">
+      <div class="stelle col-8"><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon>
+      <p class="numero col-12 justify-content-around">3.0</p>
+      <p class="parentesi text-body-tertiary">(1,50)</p>
       </div>
-      <div class="card" style="width: 18rem;">
-        <img src="course-javascript.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">A third item</li>
-        </ul>
+      <div class="row">
+        <p class="fw-bold">$500</p>
+        <p class="secondon text-body-tertiary">$600</p>
       </div>
-      <div class="card" style="width: 18rem;">
-        <img src="course-laravel.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">A third item</li>
-        </ul>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="course-node.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">A third item</li>
-        </ul>
+    </div>
+</div>
+<ul class="list-group list-group-flush">
+  <li class="list-group-item">
+    <img class="avatar2" src="avatar-2.jpg" alt="">
+    Simons Brookly
+    <ion-icon class="book" name="bookmark"></ion-icon>
+  </li>
+</ul>
+</div>
       </div>
 
 
       </div>
+      <h5 class="titoli">Trending</h5>
 
       <div class="row justify-content-around col-12">
-        <h5>Trending</h5>
+       
         <div class="card" style="width: 18rem;">
-          <img src="course-laravel.jpg" class="card-img-top" alt="...">
+          <img src="course-graphql.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">GraphQL: Introduction to<br>GraphQL for Beginners</h5>
+            <div class="row">
+              <div class="col-8">
+                <p class="card-text">
+                  <ion-icon name="time" class="md-2"></ion-icon>
+                  <span class="ora">2h 40m</span>
+                </p>
+              </div>
+              <div class="contenitore col-4 text-right">
+                <ion-icon class="classifica position-relative" name="stats"></ion-icon>
+                <p class="advance row justify-content-between align-items-center">Advance</p>
+              
+              </div class="row">
+              <div class="stelle col-8"><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon>
+              <p class="numero col-12 justify-content-around">3.0</p>
+              <p class="parentesi text-body-tertiary">(1,50)</p>
+              </div>
+              <div class="row">
+                <p class="fw-bold">$500</p>
+                <p class="secondon text-body-tertiary">$600</p>
+              </div>
+            </div>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <img class="avatar2" src="avatar-2.jpg" alt="">
+            Simons Brookly
+            <ion-icon class="book" name="bookmark"></ion-icon>
+          </li>
+        </ul>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="course-graphql.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">GraphQL: Introduction to<br>GraphQL for Beginners</h5>
+          <div class="row">
+            <div class="col-8">
+              <p class="card-text">
+                <ion-icon name="time" class="md-2"></ion-icon>
+                <span class="ora">2h 40m</span>
+              </p>
+            </div>
+            <div class="contenitore col-4 text-right">
+              <ion-icon class="classifica position-relative" name="stats"></ion-icon>
+              <p class="advance row justify-content-between align-items-center">Advance</p>
+            
+            </div class="row">
+            <div class="stelle col-8"><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon>
+            <p class="numero col-12 justify-content-around">3.0</p>
+            <p class="parentesi text-body-tertiary">(1,50)</p>
+            </div>
+            <div class="row">
+              <p class="fw-bold">$500</p>
+              <p class="secondon text-body-tertiary">$600</p>
+            </div>
           </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">A third item</li>
-          </ul>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <img class="avatar2" src="avatar-2.jpg" alt="">
+          Simons Brookly
+          <ion-icon class="book" name="bookmark"></ion-icon>
+        </li>
+      </ul>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="course-graphql.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">GraphQL: Introduction to<br>GraphQL for Beginners</h5>
+        <div class="row">
+          <div class="col-8">
+            <p class="card-text">
+              <ion-icon name="time" class="md-2"></ion-icon>
+              <span class="ora">2h 40m</span>
+            </p>
+          </div>
+          <div class="contenitore col-4 text-right">
+            <ion-icon class="classifica position-relative" name="stats"></ion-icon>
+            <p class="advance row justify-content-between align-items-center">Advance</p>
+          
+          </div class="row">
+          <div class="stelle col-8"><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon>
+          <p class="numero col-12 justify-content-around">3.0</p>
+          <p class="parentesi text-body-tertiary">(1,50)</p>
+          </div>
+          <div class="row">
+            <p class="fw-bold">$500</p>
+            <p class="secondon text-body-tertiary">$600</p>
+          </div>
+        </div>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        <img class="avatar2" src="avatar-2.jpg" alt="">
+        Simons Brookly
+        <ion-icon class="book" name="bookmark"></ion-icon>
+      </li>
+    </ul>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="course-graphql.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">GraphQL: Introduction to<br>GraphQL for Beginners</h5>
+      <div class="row">
+        <div class="col-8">
+          <p class="card-text">
+            <ion-icon name="time" class="md-2"></ion-icon>
+            <span class="ora">2h 40m</span>
+          </p>
+        </div>
+        <div class="contenitore col-4 text-right">
+          <ion-icon class="classifica position-relative" name="stats"></ion-icon>
+          <p class="advance row justify-content-between align-items-center">Advance</p>
         
+        </div class="row">
+        <div class="stelle col-8"><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon><ion-icon name="star-outline"></ion-icon>
+        <p class="numero col-12 justify-content-around">3.0</p>
+        <p class="parentesi text-body-tertiary">(1,50)</p>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img src="course-python.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">A third item</li>
-          </ul>
+        <div class="row">
+          <p class="fw-bold">$500</p>
+          <p class="secondon text-body-tertiary">$600</p>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img src="course-react.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">A third item</li>
-          </ul>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="course-wordpress.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">A third item</li>
-          </ul>
-        </div>
+      </div>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+      <img class="avatar2" src="avatar-2.jpg" alt="">
+      Simons Brookly
+      <ion-icon class="book" name="bookmark"></ion-icon>
+    </li>
+  </ul>
+</div>
   
   
         </div>
