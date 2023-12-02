@@ -60,6 +60,7 @@
 }
 .classifica{
     margin-left: -70px;
+    color:blue;
 }
 .advance{
     display: flex;
@@ -74,13 +75,12 @@
 
 .secondon{
     margin-left: 40px;
-    margin-top: -50px;
-    
-    
+    margin-top: -40px; 
+    text-decoration: line-through; 
 }
 .book{
-    margin-left: 60px;
-    background-color: aliceblue;
+   
+    color: aliceblue;
 }
 
 
