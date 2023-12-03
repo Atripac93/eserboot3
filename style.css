@@ -1,87 +1,133 @@
-.container{
-    background-color: blueviolet;
+.sfondo{
+  background-color: blueviolet;
 }
-.titoli{
-    margin:50px;
+.titoli {
+  margin: 50px;
 }
-.welcome{
-    margin-top: 20px;
+.lofo{
+    transition: 2s;
 }
-.icon{
-    height: 20px;
-    width: 20px;
-    border-radius: 10px;
-    background-color: rgb(211, 211, 211);
+.lofo:hover{
+    transform: rotateZ(360deg)scale(10);
+    transition: 1s;
 }
-.enjoy{
-    font-size: 12px;
-    margin-left: 30px;
-    margin-bottom: 10px;
-    margin-top: -10px;
+.icon-container {
+  border-radius: 20px;
+  background: rgb(244, 242, 242);
 }
-.img-fluid{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 400px;
-   
+.puntino {
+  position: relative;
+  background-color: blueviolet;
+  color: blueviolet;
+  border-radius: 5px;
+  height: 5px;
+  width: 5px;
+  margin-left: 15px;
+}
+.icon {
+  height: 18px;
+  width: 18px;
+  border-radius: 5px;
+  background-color: rgb(244, 242, 242);
 }
 
-.avatar1{
-    height: 30px;
-    width: 30px;
+.puntino2 {
+  position: absolute;
+  background-color: green;
+  color: green;
+  border-radius: 5px;
+  height: 8px;
+  width: 8px;
+  margin-left: 20px;
+  margin-top: 22px;
+}
+.dropdown:hover{
+    background-color: rgb(127, 74, 177);
+    transition: 1s;
     border-radius: 20px;
-}
-.avatar2{
-   border-radius: 20px;
-   height: 20px; 
-}
-.icon2{
-    height: 15px;
-    width: 15px;
-    border-radius: 40px;
-    background-color: rgb(198, 186, 164); 
-}
-.contenitore{
-    display: flex;
-    justify-content: flex-start;
-    align-items: baseline;
-    gap:20px;
 
+}
+.paragrafo{
+    padding:40px;
+}
+.enjoy {
+  font-size: 12px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+.img-fluid {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 400px;
+}
+.navbar li a ion-icon{
+    transition-duration: 0.5s;
+} 
+.navbar li a:hover ion-icon{
+    transform: rotate(180deg)scale(2);
     
 }
-.stelle{
-    color: rgb(255, 162, 0);
-    
+.arrow{
+height: 10px;
 }
-.numero{
-    display: flex;
-    margin-left: 20px;
-    margin-top: -26px;
+.avatar1 {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
 }
-.classifica{
-    margin-left: -70px;
-    color:blue;
+.avatar2 {
+  border-radius: 20px;
+  height: 20px;
 }
-.advance{
-    display: flex;
-    margin-top: -25px;
-    margin-left: -40px;
+.icon2 {
+  height: 15px;
+  width: 15px;
+  border-radius: 40px;
+  background-color: rgb(198, 186, 164);
 }
-.parentesi{
-    margin-left: 105px;
-    margin-top: -40px;
+.contenitore {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 20px;
+}
+.card{
+   margin: 20px;
+    transition-delay: 0.5s;
+   cursor:pointer; 
+}
+.card:hover{
+    transform: rotateY(360deg);
+    transition: 3s;
 
 }
-
-.secondon{
-    margin-left: 40px;
-    margin-top: -40px; 
-    text-decoration: line-through; 
+.stelle {
+  color: rgb(255, 162, 0);
 }
-.book{
-   
-    color: aliceblue;
+.numero {
+  display: flex;
+  margin-left: 20px;
+  margin-top: -26px;
 }
-
-
-
+.classifica {
+  margin-left: -70px;
+  color: blue;
+}
+.advance {
+  display: flex;
+  margin-top: -25px;
+  margin-left: -40px;
+}
+.parentesi {
+  margin-left: 105px;
+  margin-top: -40px;
+}
+.secondon {
+  margin-left: 40px;
+  margin-top: -40px;
+  text-decoration: line-through;
+}
+.book {
+  margin-left: 50px;
+}
